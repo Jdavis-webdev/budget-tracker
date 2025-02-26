@@ -1,0 +1,35 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+/* Background and Layout */
+.app-container {
+  background: #1e293b; /* Deep blue-gray */
+  color: #e0e0e0; /* Soft white text */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+}
+
+/* Page Content */
+.page-container {
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 26px;
+  color: #ffcc00;
+}
+
+p {
+  font-size: 18px;
+  color: #e0e0e0;
+}

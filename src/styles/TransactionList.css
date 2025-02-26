@@ -1,0 +1,54 @@
+.transaction-list {
+  background: #354b63;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+}
+
+.transaction-list h3 {
+  color: #ffcc00;
+}
+
+.transaction-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-list li {
+  display: flex;
+  justify-content: space-between;
+  background: #1e293b;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.transaction-list button {
+  background: transparent;
+  color: #ff6b6b;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.transaction-list button:hover {
+  color: #ff4d4d;
+}
+
+.edit-transaction input {
+  width: 40%;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.edit-transaction button {
+  background: #ffcc00;
+  color: #1e293b;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.balance-container {
+  background: #2a3b4f;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px;
+}
+
+.balance-container h2 {
+  color: #ffcc00;
+}
+
+.balance-container p {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.positive-balance {
+  color: #50c878; /* Green for positive balance */
+}
+
+.negative-balance {
+  color: #ff6b6b; /* Red for negative balance */
+}

@@ -1,0 +1,15 @@
+.chart-container {
+  background: #354b63;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.chart-title {
+  color: #ffcc00;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
